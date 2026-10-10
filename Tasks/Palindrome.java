@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-class Task4 {
+class Palindrome {
  public static void main(String[] args) {
+     //Task 4
     Scanner sc = new Scanner(System.in);
     System.out.print("Input a palindrome (word/number/char sequence): ");
 

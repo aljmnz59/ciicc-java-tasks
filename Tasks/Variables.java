@@ -1,5 +1,6 @@
-public class Task3 {
+public class Variables {
     static void main(String[] args) {
+        //Task 3
         String a = new String("Wow");
         String c = "Wow";
         String b = a;

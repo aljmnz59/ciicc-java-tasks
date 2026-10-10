@@ -1,5 +1,6 @@
-public class Task2 {
+public class Concatenation {
     public static void main(String[] args) {
+        //Task 2
         int ello = 3110;
         byte zero = 0;
         short one = 1;
