@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class SumOfParameters {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         SumOfParameters s = new SumOfParameters();
 
         int result = s.sumOfParameters(5);
