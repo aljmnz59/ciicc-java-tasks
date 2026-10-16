@@ -6,7 +6,6 @@ public class SumOfParameters {
 
         System.out.println("The sum of all parameters w/ subsequent params is: " + result);
 
-        scanner.close();
     }
 
     public int sumOfParameters(int... nums){
