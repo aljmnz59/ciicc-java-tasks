@@ -1,14 +1,13 @@
 public class SumOfParameters {
     public static void main(String[] args) {
-        SumOfParameters s = new SumOfParameters();
 
-        int result = s.sumOfParameters(5);
+        int result = sumOfParameters(5);
 
         System.out.println("The sum of all parameters w/ subsequent params is: " + result);
 
     }
 
-    public int sumOfParameters(int... nums){
+    public static int sumOfParameters(int... nums){
         int totalParam = 0;
         for(int i = 0; i < nums.length; i++){
             for(int j = 1; j <= nums[i]; j++){
